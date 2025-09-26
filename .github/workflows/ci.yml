@@ -18,7 +18,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      # 👇 path disesuaikan dengan folder kamu
       - name: Compile Java
         run: |
           mkdir -p out
-          javac -d out $(find src -name "*.java")
+          javac -d out $(find "Modul 1/Codelab/src" -name "*.java")
+
+      - name: Run Program (contoh Codelab1)
+        run: java -cp out Codelab1
