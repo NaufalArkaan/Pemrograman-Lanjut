@@ -45,6 +45,7 @@ public class Mahasiswa {
         System.out.println("Jurusan: " + getJurusan());
         System.out.println("IPK: " + getIpk());
         statusKelulusan(); //Refactor Extract Method, yang awalnya percabangan if else jadi buat method sendiri
+        //Penmabahan Fitur, Coming soon....
     }
 
     private void statusKelulusan() {

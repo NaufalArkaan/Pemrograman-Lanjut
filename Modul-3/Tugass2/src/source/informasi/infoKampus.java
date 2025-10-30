@@ -7,6 +7,5 @@ public interface infoKampus {
     /**
      * Menampilkan informasi kampus dan mahasiswa terkait.
      */
-    //Penmabahan Fitur, Coming soon....
     void tampilInfo();
 }
