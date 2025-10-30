@@ -5,6 +5,7 @@ import java.util.Base64;
 import java.util.Scanner;
 import java.util.Arrays;
 
+
 //punya naufal
 public class AutoHashScanner {
 
