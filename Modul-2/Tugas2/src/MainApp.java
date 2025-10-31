@@ -2,7 +2,7 @@ import Modul1.Tugas1.Tugas3.TicketInfo;
 
 public class MainApp {
     public static void main(String[] args) {
-        TaxiTicket ticket = new TaxiTicket(new TicketInfo("Alice", "Downtown", "Airport", 50.0), 30.0, 60.0);
+        TaxiTicket ticket = new TaxiTicket(new TicketInfo("Alice", "Downtown", "Airport", 50.0), 30.0, 60.0); //update
 
         ticket.detailedInfo();
 

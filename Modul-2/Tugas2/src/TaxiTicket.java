@@ -8,7 +8,7 @@ public class TaxiTicket extends Modul1.Tugas1.Ticket implements Modul1.Tugas1.Op
     private static final double MIN_SPEED = 5;
     private static final double MAX_SPEED = 100;
 
-    public TaxiTicket(TicketInfo ticketInfo, double duration, double speed) {
+    public TaxiTicket(TicketInfo ticketInfo, double duration, double speed) { //update
         super(ticketInfo.passengerName(), ticketInfo.startLocation(), ticketInfo.destination(), ticketInfo.price());
         this.duration = duration;
         this.speed = speed;
@@ -62,7 +62,7 @@ public class TaxiTicket extends Modul1.Tugas1.Ticket implements Modul1.Tugas1.Op
     public void detailedInfo() {
         displayInfo();
         System.out.println("Duration       : " + duration + " minutes");
-        System.out.println("Speed          : " + speed + " km/h");
+        System.out.println("Speed          : " + speed + " km/h"); //update
     }
 
 }
