@@ -14,9 +14,10 @@ public class RestaurantOrder {
         }
         return total;
     }
+    
 
     public double hitungDiskon(double total) {
-        if (total >= 100000) return total * 0.15; // diskon 15%
+        if (total >= 100000) return total * 0.15;// diskon 15%
         if (total >= 50000) return  total * 0.10;  // diskon 10%
         return 0;
     }
